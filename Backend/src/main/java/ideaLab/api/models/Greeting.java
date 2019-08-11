@@ -1,4 +1,4 @@
-package ideaLab.api.entity;
+package ideaLab.api.models;
 
 public class Greeting {
 

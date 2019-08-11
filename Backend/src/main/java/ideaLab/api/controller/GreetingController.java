@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import ideaLab.api.entity.Greeting;
+import ideaLab.api.models.Greeting;
 
 @RestController
 public class GreetingController {
