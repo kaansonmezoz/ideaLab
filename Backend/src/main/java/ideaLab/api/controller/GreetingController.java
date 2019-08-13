@@ -1,4 +1,4 @@
-package ideaLab.api.controller;
+package idealab.api.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 import org.springframework.web.bind.annotation.RequestMapping;
