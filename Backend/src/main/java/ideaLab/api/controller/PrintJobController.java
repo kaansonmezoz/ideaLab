@@ -18,8 +18,8 @@ public class PrintJobController {
         this.printJobOperations = printJobOperations;
     }
 
-    @PutMapping
-    public ResponseEntity<?> printJobUpdate(@RequestBody PrintJobUpdateRequest dto)
+    @PutMapping("/status")
+    public ResponseEntity<?> printJobUpdateStatus(@RequestBody PrintJobUpdateRequest dto)
     {
         GenericResponse response = printJobOperations.updatePrintJob(dto);
         if(response.isSuccess())
