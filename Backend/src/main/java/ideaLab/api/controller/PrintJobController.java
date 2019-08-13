@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController("/api/printjob")
+@RestController
 public class PrintJobController {
 
     private final PrintJobOperations printJobOperations;
@@ -18,7 +18,7 @@ public class PrintJobController {
         this.printJobOperations = printJobOperations;
     }
 
-    @PutMapping("/status")
+    @PutMapping("/api/printjob/status")
     public ResponseEntity<?> printJobUpdateStatus(@RequestBody PrintJobUpdateRequest dto)
     {
         GenericResponse response = printJobOperations.updatePrintJob(dto);
