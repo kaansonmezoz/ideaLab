@@ -1,4 +1,4 @@
-package ideaLab.api.models;
+package idealab.api.models;
 
 public enum Status {
     PENDING_REVIEW ("Pending Review"),
@@ -13,5 +13,10 @@ public enum Status {
 
     Status(String name) {
         this.name = name;
+    }
+
+    @Override
+    public String toString() {
+        return name;
     }
 }
