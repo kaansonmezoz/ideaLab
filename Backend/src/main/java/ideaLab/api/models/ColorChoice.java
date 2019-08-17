@@ -1,4 +1,4 @@
-package ideaLab.api.models;
+package idealab.api.models;
 
 public enum ColorChoice {
     BLUE ("Blue"),

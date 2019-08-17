@@ -1,7 +1,7 @@
-package ideaLab.api.models;
+package idealab.api.models;
 
-import java.time.LocalDateTime;
 import javax.persistence.*;
+import java.time.LocalDateTime;
 
 @Entity
 @Table(name = "print_status")

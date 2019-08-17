@@ -1,7 +1,8 @@
-package ideaLab.api.models;
+package idealab.api.models;
+
+import org.hibernate.validator.constraints.Length;
 
 import javax.persistence.*;
-import org.hibernate.validator.constraints.Length;
 
 @Entity
 @Table(name = "employee_logins")
